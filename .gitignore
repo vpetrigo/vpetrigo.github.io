@@ -1,8 +1,9 @@
 _site
 .sass-cache
-.jekyll-cache
+.jekyll-cache/
 .jekyll-metadata
-vendor
+vendor/
+.bundle/
 
 # VS Code
 /.vscode/
