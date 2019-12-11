@@ -6,4 +6,5 @@ group "plugins" do
   gem "jekyll-gist"
   gem "jekyll-seo-tag"
   gem "jekyll-feed"
+  gem 'jemoji'
 end
