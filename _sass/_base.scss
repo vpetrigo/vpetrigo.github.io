@@ -66,6 +66,14 @@ img {
     border-radius: 5px;
 }
 
+img.emoji {
+    display: inline;
+    transform: none;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+}
+
 table {
     margin-bottom: 1rem;
     width: 100%;
