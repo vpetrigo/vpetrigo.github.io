@@ -159,6 +159,6 @@ Sometimes issues come from parts you expect them the least to come from though. 
 digging into a IDE/compiler vendor specific libraries if that source code available.
 Make some changes and confirm them with your oscilloscope.
 
-If you have any questions, would like me to explain something in more details or find and issue with my post, feel free to contact me via [email](mailto:{{ site.email} }).
+If you have any questions, would like me to explain something in more details or find and issue with my post, feel free to contact me via [email](mailto:{{ site.email }}).
 
 [piezo_switch]: https://www.barantec.com/product/sbr11/#1521537503478-81da1b33-beeb
