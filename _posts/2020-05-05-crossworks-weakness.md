@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CrossWorks implementation weakness"
+title: "CrossWorks for ARM implementation weakness"
 tags: [arm, embedded, crossworks, optimization]
 ---
 
