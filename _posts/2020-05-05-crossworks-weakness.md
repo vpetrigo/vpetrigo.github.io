@@ -12,6 +12,8 @@ It was a STM32L4 based solution with the [piezo switch][piezo_switch] attached t
 wake up time requirement was introduced due to UX of the piezo switch. That switch asserts MCU's sensor line only for _100-200 ms_.
 As of the fact that our system goes to the sleep mode between application run and has several wake up sources that affect on application run logic, we faced some challenges.
 
+<!--cut-->
+
 ## When it comes to an issue
 
 To describe the issue more accurate let's check the figure below:
