@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         kramdown 
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Setup
+title:            Rust stuff
+tagline:          'Embedded engineering and programming stuff'
+description:      'Blog with random things about embededded and non-embedded things'
+
+paginate:         5
+baseurl:          ""
+
+# Custom vars
+version:          2.1.0
+
+plugins: 
+ - jekyll-paginate
+ - jekyll-gist
+ - jekyll-seo-tag
+ - jekyll-feed
+
+github:
+  repo:           'https://github.com/vpetrigo'
+
+email:            'taenaru@gmail.com'
+
+twitter:
+  username: vpetrigo
+  card:     summary
+  url:      'https://twitter.com/vpetrigo'

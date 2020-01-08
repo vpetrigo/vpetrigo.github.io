@@ -1,0 +1,75 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+    .content {
+        max-width: 38rem;
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .content {
+        margin-left: 22rem;
+        margin-right: 4rem;
+    }
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+$icon-border-radius: 1em;
+$icon-width: 1.75em;
+$icon-size: 1.5em;
+$shadow-offset-x: 5px;
+$shadow-offset-y: 5px;
+$shadow-blur-radius: 10px;
+
+.social [class*="fab fa-"],
+.social [class*="fas fa-"] {
+    background-color: $sidebar-color;
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: $shadow-offset-x $shadow-offset-y $shadow-blur-radius $social-shadow-color;
+    display: inline-block;
+    height: $icon-width;
+    width: $icon-width;
+    line-height: $icon-width;
+    margin: auto 3px;
+    font-size: $icon-size;
+    text-align: center;
+    text-decoration: none;
+}
+
+// center align social buttons
+.sidebar-nav {
+    .social {
+        text-align: center;
+    }
+}
+
+.fa-github:hover {
+    background-color: #24292e;
+}
+
+.fa-twitter:hover {
+    background-color: #46c0fb;
+}
+
+.fa-envelope-open-text:hover {
+    background-color: #d54638;
+}
