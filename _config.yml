@@ -22,13 +22,10 @@ sass:
 # Setup
 title:            Rust stuff
 tagline:          'Embedded engineering and programming stuff'
-description:      'Blog with random things about embededded and non-embedded things'
+description:      'Blog with random notes about embededded and non-embedded things'
 
 paginate:         5
 baseurl:          ""
-
-# Custom vars
-version:          2.1.0
 
 plugins: 
  - jekyll-paginate
@@ -36,8 +33,7 @@ plugins:
  - jekyll-seo-tag
  - jekyll-feed
 
-github:
-  repo:           'https://github.com/vpetrigo'
+repo:             'https://github.com/vpetrigo'
 
 email:            'taenaru@gmail.com'
 
