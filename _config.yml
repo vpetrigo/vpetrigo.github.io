@@ -22,7 +22,7 @@ sass:
 # Setup
 title:            Rust stuff
 tagline:          'Embedded engineering and programming stuff'
-description:      'Blog with random notes about embededded and non-embedded things'
+description:      'Blog with random notes about embedded and non-embedded things'
 
 paginate:         5
 baseurl:          ""
