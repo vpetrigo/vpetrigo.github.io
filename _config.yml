@@ -32,6 +32,7 @@ plugins:
  - jekyll-gist
  - jekyll-seo-tag
  - jekyll-feed
+ - jekyll-sitemap
  - jemoji
 
 repo:             'https://github.com/vpetrigo'
