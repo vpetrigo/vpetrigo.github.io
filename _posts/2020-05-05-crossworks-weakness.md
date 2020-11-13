@@ -122,6 +122,7 @@ is copied from MCU's Flash memory.
 > Just to show the difference between per byte copy/set and per word copy/set implementation, I will make some calculations for CPU we used in
 > our project - STM32L4A6VG, that operates on 4 MHz frequency after a reset event. That means:
 > $$ t_{instruction} = \frac{1}{f_{CPU}} = \frac{1}{4 \cdot 10^6} = 250 \cdot 10^{-9} \; s = 250 \; ns $$
+>
 > For simplicity, let's consider that we use only `memory_set` operation with 5 single cycle instructions within it (`beq`, `cmp`, `strb`, `adds`, `b`).
 >
 > As it sets 1 byte per an iteration and the app has to clear _265 Kbytes = 271360 bytes_, it takes:
@@ -134,7 +135,9 @@ is copied from MCU's Flash memory.
 > **That looks quite close to the time we saw on the first oscillogram!**
 >
 > Expected execution time of the same routines with word wide operations:
-$inline$ t_{set} = C_{MEM} \cdot N = \frac{271360}{4} \cdot 5 = 339200 \; cycles \rightarrow \\ \rightarrow T_{set} = t_{instruction} \cdot t_{set} = 250 \cdot 10^{-9} \; s \cdot 339200 \; cycles = 0.0848 \; s \approx 0.085 \; s = 85 \; ms$inline$
+$$ t_{set} = C_{MEM} \cdot N = \frac{271360}{4} \cdot 5 = 339200 \; cycles \rightarrow$$
+>
+> $$\rightarrow T_{set} = t_{instruction} \cdot t_{set} = 250 \cdot 10^{-9} \; s \cdot 339200 \; cycles = 0.0848 \; s \approx 0.085 \; s = 85 \; ms$$
 
 Applying the simple patch that should improve system's performance:
 
