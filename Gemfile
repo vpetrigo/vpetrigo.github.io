@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "webrick"
 group "plugins" do
   gem "jekyll-paginate"
   gem "jekyll-gist"
