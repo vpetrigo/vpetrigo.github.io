@@ -191,7 +191,8 @@ target_link_libraries(caches_usage PRIVATE caches::caches)
 
 // alias for easy class typing
 template<typename Key, typename Value>
-using lru_cache_t = typename caches::fixed_sized_cache<Key, Value, caches::LRUCachePolicy>;
+using lru_cache_t =
+        typename caches::fixed_sized_cache<Key, Value, caches::LRUCachePolicy>;
 
 void foo() {
     constexpr std::size_t CACHE_SIZE = 256;

@@ -35,9 +35,9 @@ plugins:
  - jekyll-sitemap
  - jemoji
 
-repo:             'https://github.com/vpetrigo'
+repo: 'https://github.com/vpetrigo'
 
-email:            'taenaru@gmail.com'
+email: 'vladimir.petrigo@gmail.com'
 
 twitter:
   username: vpetrigo
