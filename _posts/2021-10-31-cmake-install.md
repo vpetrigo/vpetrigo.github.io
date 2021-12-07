@@ -166,6 +166,18 @@ Let's try to reuse our installation in another project. I created another projec
 
 ```cmake
 # CMakeLists.txt
+cmake_minimum_required(VERSION 3.21)
+project(caches_usage)
+
+set(CMAKE_CXX_STANDARD 17)
+
+string(APPEND CMAKE_PREFIX_PATH "/tmp/tmp.gsK7NQF0ni/build/install")
+# OR another option
+# set(caches_DIR "/tmp/tmp.gsK7NQF0ni/build/install/lib64/caches")
+find_package(caches)
+
+add_executable(caches_usage main.cpp)
+target_link_libraries(caches_usage PRIVATE caches::caches)
 ```
 
 - _main.cpp_
