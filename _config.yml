@@ -43,3 +43,9 @@ twitter:
   username: vpetrigo
   card:     summary
   url:      'https://twitter.com/vpetrigo'
+
+defaults:
+  - scope:
+      path:            licenses/
+    values:
+      sitemap:         false
