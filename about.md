@@ -22,7 +22,7 @@ as well if you like. :sweat_smile:
 <a class="fab fa-ethereum" href="https://bitcoinblockexplorers.com/address/18JQRbkXFAFnsDfqFe6xqpcfUV9rKHCGpM"></a>: 0x60Fe1F3248E79dEd1285944bC97f4EA44e6c2e39
 <!-- - ETH: 0x60Fe1F3248E79dEd1285944bC97f4EA44e6c2e39 -->
 <br />
-<a class="fas fa-dog" href="https://bitcoinblockexplorers.com/address/18JQRbkXFAFnsDfqFe6xqpcfUV9rKHCGpM"></a>: DFK2N49MxxhGoo5x44kUUy2Bgpsr6K9Kqy
+<a class="fas fa-dog" href="https://dogeblocks.com/address/DFK2N49MxxhGoo5x44kUUy2Bgpsr6K9Kqy"></a>: DFK2N49MxxhGoo5x44kUUy2Bgpsr6K9Kqy
 <!-- - DOGE: DFK2N49MxxhGoo5x44kUUy2Bgpsr6K9Kqy -->
 </p>
 
