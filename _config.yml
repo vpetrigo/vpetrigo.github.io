@@ -8,6 +8,7 @@ permalink:        pretty
 # Optimize Jekyll
 exclude:
   - .editorconfig
+  - "licenses/*"
   - .git
   - .jekyll-cache
   - Gemfile
