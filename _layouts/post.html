@@ -3,6 +3,7 @@ layout: default
 ---
 
 <header>
+  {% include back-link.html %}
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
 <div class="content">
@@ -16,3 +17,4 @@ layout: default
   {% include comments.html %}
   {% include related_posts.html %}
 </div>
+{% include back-link.html %}
