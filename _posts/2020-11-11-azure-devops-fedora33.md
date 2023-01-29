@@ -19,7 +19,7 @@ Fetching origin
 I missed SSH Public Key auth after upgrading to Fedora 33. 
 The reason why it happended was updated [crypto settings](https://fedoraproject.org/wiki/Changes/StrongCryptoSettings2).
 
-<!--cut-->
+<!--more-->
 
 ## Fixing the issue
 

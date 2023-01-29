@@ -12,7 +12,6 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
   - README.md
 
 sass:
@@ -26,6 +25,9 @@ description:      'Blog with random notes about embedded and non-embedded things
 
 paginate:         5
 baseurl:          ""
+
+excerpt_separator: <!--more-->
+sidebar_home_link:  true
 
 plugins: 
  - jekyll-paginate
@@ -47,6 +49,11 @@ twitter:
   username: vpetrigo
   card:     summary
   url:      'https://twitter.com/vpetrigo'
+
+google_analytics: G-DNQ2PBCFHS
+yandex_analytics: 
+  metrics: 56945608
+  webmaster: 80fdd0e9729049b7
 
 defaults:
   - scope:

@@ -24,7 +24,7 @@ That may be especially interesting for ones who uses the following products:
 - CrossWorks for ARM (most likely all ARM Cortex-M MCUs will be affected by that)
 - Segger Embedded Studio (SES)
 
-<!--cut-->
+<!--more-->
 
 ## When it comes to an issue
 

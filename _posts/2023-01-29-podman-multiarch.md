@@ -20,7 +20,7 @@ builds you have with [Docker `buildx`][buildx] command.
 
 Below I would like to share a way I perform such builds with `podman` and friends.
 
-<!--cut-->
+<!--more-->
 
 <figure>
   <div>

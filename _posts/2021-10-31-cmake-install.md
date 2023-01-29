@@ -11,7 +11,7 @@ also useful during library distribution.
 As an example we will take the [caches](https://github.com/vpetrigo/caches) library which is the
 header-only library and discuss adding pkg-config and CMake export support.
 
-<!--cut-->
+<!--more-->
 
 ### pkg-config support
 
