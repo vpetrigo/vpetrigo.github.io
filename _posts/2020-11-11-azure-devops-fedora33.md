@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Azure DevOps SSH and Fedora 33"
+description: "Azure DevOps SSH issue on Linux distros with deprecated/disabled legacy cryptographic protocols"
 tags: [linux, fedora, azure, ssh]
 ---
 

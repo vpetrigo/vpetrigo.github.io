@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Header-only library CMake install"
+description: "Guide on how to prepare CMake project for distribution/installation"
 tags: [cmake, header-only, pkg-config, cpp]
 ---
 In this post I would like to show how to write install rules in CMake build system

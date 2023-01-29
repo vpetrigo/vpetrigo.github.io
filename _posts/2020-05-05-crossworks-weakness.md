@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CrossWorks for ARM slow?"
+description: "CrossWorks for ARM start up performance issues (CRT code of the standard library implementation)"
 tags: [arm, embedded, crossworks, optimization]
 ---
 
