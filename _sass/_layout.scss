@@ -11,3 +11,9 @@ img.emoji {
     padding: 0;
     margin: 0;
 }
+
+a#github-icon,
+a#email-icon,
+a#support-icon {
+    order: -1;
+}
