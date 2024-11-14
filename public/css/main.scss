@@ -3,7 +3,7 @@
 # only main files contain this front matter, not partials.
 ---
 
-@import "variables";
-@import "hydeout";
-@import "layout";
-@import "type";
+@use "variables" as *;
+@use "hydeout" as *;
+@use "layout" as *;
+@use "type" as *;

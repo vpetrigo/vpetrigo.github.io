@@ -2,6 +2,8 @@
 //
 // Update the foundational and global aspects of the page.
 
+@use "variables" as *;
+
 * {
   box-sizing: border-box;
 }
@@ -95,10 +97,9 @@ input[type='submit'] {
   border-color: $border-color;
   color: $link-color;
   cursor: pointer;
-  transition:
-    color 0.6s ease-in-out,
-    border-color 0.6s ease-in-out,
-    background 0.6s ease-in-out;
+  transition: color 0.6s ease-in-out,
+  border-color 0.6s ease-in-out,
+  background 0.6s ease-in-out;
 
   &:hover {
     background: $link-color;
@@ -111,7 +112,7 @@ input[type='submit'] {
 .video-container {
   overflow: hidden;
   position: relative;
-  width:100%;
+  width: 100%;
 }
 
 .video-container::after {

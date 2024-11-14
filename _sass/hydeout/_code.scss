@@ -3,15 +3,17 @@
 // Inline and block-level code snippets. Includes tweaks to syntax highlighted
 // snippets from Pygments/Rouge and Gist embeds.
 
+@use "variables";
+
 code,
 pre {
-  font-family: $code-font-family;
+  font-family: variables.$code-font-family;
 }
 
 code {
   background-color: #f9f9f9;
   border-radius: 3px;
-  color: $code-color;
+  color: variables.$code-color;
   font-size: 85%;
   padding: 0.25em 0.5em;
 }
