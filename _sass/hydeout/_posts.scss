@@ -95,3 +95,38 @@ article + *,
 button.disqus-load {
   margin-top: 1em;
 }
+
+pre.highlight {
+  position: relative; /* Ensure the parent has relative positioning */
+}
+
+pre.highlight > button {
+  opacity: 0;
+  background: #f9f9f9;
+  color: #714e43;
+  transition: all 0.2s ease-out;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding: 0.5rem 1rem; /* Add padding for rectangular shape */
+  border: 1px solid #bbb;
+  border-radius: 0.5rem; /* Rounded edges */
+  cursor: pointer; /* Change cursor to pointer when hovering */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight box-shadow */
+}
+
+pre.highlight:hover > button {
+  opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+  opacity: 1;
+}
+
+button,
+input[type='copy-code'] {
+  background: transparent;
+  font-family: variables.$code-font-family;
+  font-weight: bold;
+}
