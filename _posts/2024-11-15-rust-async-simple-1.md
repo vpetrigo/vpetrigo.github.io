@@ -272,7 +272,7 @@ executor.run();
 
 And the result is what we expect:
 
-```bash
+```
 1731508882: hello
 1731508882: Task hello is pending. Waiting for the next tick...
 1731508884: world
@@ -301,8 +301,7 @@ now, the only thing that bothers me in the above executor implementation - hardc
 If you like, you can experiment with the code yourself - [miniloop](https://github.com/vpetrigo/miniloop/tree/v0.1.0) is
 available.
 
-Will see if it will be possible to use it to enhance my [sntpc](https://github.com/vpetrigo/sntpc) crate and avoid
-`#[maybe_async]` drawbacks.
+Will see if it will be possible to use it to enhance my [sntpc](https://github.com/vpetrigo/sntpc) crate and avoid `#[maybe_async]` drawbacks.
 
 What else we should analyse:
 
