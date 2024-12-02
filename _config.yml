@@ -39,6 +39,7 @@ plugins:
  - jekyll-sitemap
  - jemoji
 
+url: "https://rs-stuff.dev"
 repo: 'https://github.com/vpetrigo'
 
 email: 'vladimir.petrigo@gmail.com'
