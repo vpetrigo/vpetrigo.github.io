@@ -28,3 +28,26 @@ codeBlocks.forEach(function (codeBlock) {
 
     codeBlock.appendChild(copyButton);
 });
+
+function copyToClipboard(elementId) {
+    const element = document.getElementById(elementId);
+    const text = element.textContent;
+
+    navigator.clipboard.writeText(text).then(
+        function() {
+            // Show temporary success message
+            const button = element.nextElementSibling;
+            const originalHTML = button.innerHTML;
+
+            button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>';
+            button.style.color = 'green';
+
+            setTimeout(function() {
+                button.innerHTML = originalHTML;
+                button.style.color = '';
+            }, 2000);
+        }
+    ).catch(function(err) {
+        console.error('Could not copy text: ', err);
+    });
+}
