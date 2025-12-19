@@ -10,8 +10,10 @@ exclude:
   - .idea
   - .editorconfig
   - "licenses/*"
+  - ssl
   - .git
   - .jekyll-cache
+  - cert.sh
   - Gemfile
   - Gemfile.lock
   - README.md
