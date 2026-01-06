@@ -22,12 +22,11 @@ $vars = cmd /C '"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\
 $vars = cmd /C '"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64 & set'
 
 $vars | Foreach-Object {
-        $_ | Select-String -Pattern "([^=]+)=(.+)"
-        | Foreach-Object {
-            $var = $_.Matches[0].Groups[1].Value
-            $value = $_.Matches[0].Groups[2].Value
-            Set-Item -Path Env:$var -Value "$value"
-        }
+    $_ | Select-String -Pattern "([^=]+)=(.+)" | Foreach-Object {
+        $var = $_.Matches[0].Groups[1].Value
+        $value = $_.Matches[0].Groups[2].Value
+        Set-Item -Path Env: $var -Value "$value"
+    }
 }
 ```
 
