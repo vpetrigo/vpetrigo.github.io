@@ -25,7 +25,7 @@ $vars | Foreach-Object {
     $_ | Select-String -Pattern "([^=]+)=(.+)" | Foreach-Object {
         $var = $_.Matches[0].Groups[1].Value
         $value = $_.Matches[0].Groups[2].Value
-        Set-Item -Path Env: $var -Value "$value"
+        Set-Item -Path Env:$var -Value "$value"
     }
 }
 ```
